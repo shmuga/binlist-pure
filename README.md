@@ -1,2 +1,20 @@
-# binlist-pure
+# Binlist :credit_card:
 Binlist wrapper for binlist.net with zero dependecies and Promise flavor.
+
+**Install with**:  `npm install --save binlist-pure`
+
+# Usage
+There are two ways of usage:
+```javascript
+// Promise-based
+const bin = require('binlist-pure');
+bin('411111').then(console.log);
+
+// or callback-based
+bin('411111', (err, res) => {console.log(res)})
+```
+
+### What is binlist
+The first 6 digits of a credit card number are known as the Issuer Identification Number (IIN), previously known as Bank Identification Number (BIN). These identify the institution that issued the card to the card holder.
+
+This webservice has an internal database with IIN/BIN information, which is queried via the Rest API. There's no magic or tricky calculations, it's just a database. And although the database is very accurate, don't expect it to be perfect.
