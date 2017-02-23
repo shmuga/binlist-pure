@@ -1,5 +1,5 @@
 # Binlist :credit_card: [![Build Status](https://travis-ci.org/shmuga/binlist-pure.svg?branch=master)](https://travis-ci.org/shmuga/binlist-pure)
-Binlist wrapper for binlist.net with zero dependecies and Promise flavor.
+Binlist wrapper for bins.payout.com with zero dependecies and Promise flavor.
 
 **Install with**:  `npm install --save binlist-pure`
 

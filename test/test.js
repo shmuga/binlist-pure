@@ -2,16 +2,11 @@ const assert = require('assert');
 const bin = require('./../lib/index');
 
 function checkFields(res) {
-  assert(res.bin != undefined, 'No bin');
-  assert(res.brand != undefined, 'No brand');
-  assert(res.subBrand!= undefined, 'No brand sub');
-  assert(res.countryCode != undefined, 'No country code');
-  assert(res.countryName != undefined, 'No country name');
-  assert(res.bank != undefined, 'No bank');
-  assert(res.cardType!= undefined, 'No typeCard');
-  assert(res.cardCategory!= undefined, 'No categoryCard');
-  assert(res.latitude != undefined, 'No latitude');
-  assert(res.longitude != undefined, 'No longitude');
+  assert(res.bin !== undefined, 'No bin');
+  assert(res.brand !== undefined, 'No brand');
+  assert(res.countryCode !== undefined, 'No country code');
+  assert(res.bank !== undefined, 'No bank');
+  assert(res.isPrepaid !== undefined, 'No prepaid information');
 }
 
 describe('common test', () => {
