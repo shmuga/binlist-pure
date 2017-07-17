@@ -1,4 +1,6 @@
 # Binlist :credit_card: [![Build Status](https://travis-ci.org/shmuga/binlist-pure.svg?branch=master)](https://travis-ci.org/shmuga/binlist-pure)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/shmuga/binlist-pure.svg)](https://greenkeeper.io/)
 Binlist wrapper for bins.payout.com with zero dependecies and Promise flavor.
 
 **Install with**:  `npm install --save binlist-pure`
