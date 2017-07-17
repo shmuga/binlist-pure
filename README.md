@@ -1,8 +1,9 @@
 # Binlist :credit_card: [![Build Status](https://travis-ci.org/shmuga/binlist-pure.svg?branch=master)](https://travis-ci.org/shmuga/binlist-pure)
 Binlist wrapper for bins.payout.com with zero dependecies and Promise flavor.
 
-**Install with**:  `npm install --save binlist-pure`
+# DEPRECATED: use https://github.com/paylike/binlookup instead.
 
+**Install with**:  `npm install --save binlist-pure`
 # Usage
 There are two ways of usage:
 ```javascript
